@@ -205,3 +205,31 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Extra ignore rules for ComfyUI / AI projects ---
+
+# Large models / checkpoints
+*.ckpt
+*.safetensors
+*.pth
+*.pt
+*.bin
+
+# ComfyUI folders
+models/
+output/
+temp/
+input/
+custom_nodes/
+web/extensions/
+
+# HuggingFace cache
+huggingface/
+.cache/
+
+# Logs
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
